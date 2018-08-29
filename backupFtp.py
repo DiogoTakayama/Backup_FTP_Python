@@ -6,8 +6,8 @@ port = 21
 
 ftp = FTP()
 ftp.connect(host,port)
-ftp.login('ftp','3664')
-nomeArquivo = "E:\\images"
+ftp.login('','')
+nomeArquivo = "E:"
 
 def placeFiles(ftp, path):
     for nome in os.listdir(path):
